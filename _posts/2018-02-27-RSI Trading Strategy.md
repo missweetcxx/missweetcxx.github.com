@@ -12,8 +12,8 @@ tags:
 ---
 
 ##### 1. 算法交易
-读书的时候上过一门算法交易的课程，讲的就是如何使用各种算法进行股票以及期货(指)的投资。投资算法五花八门，在真实的交易中一般需要参考各种因素选择一种或多种投资策略进行交易。然而这还远远不够，记得那门课的教授当时说过"In Chinese stock market, monkey would earn more than a professional trader（在中国股票市场，猴子有可能比专业交易员赚的还多哦），所以说，本文仅供娱乐，无任何投资参考价值。  
-在本文中，我使用搜狐的接口获取一定时间内特定股票的数据，[API地址](http://q.stock.sohu.com/hisHq?code=cn_000001&start=20180223&end=20180224&stat=1&order=D&period=d&callback=historySearchHandler&rt=jsonp)，源代码地址： https://github.com/missweetcxx/algo_trading。
+读书的时候上过一门算法交易的课程，讲的就是如何使用各种算法进行股票以及期货(指)的投资。投资算法五花八门，在真实的交易中一般需要参考各种因素选择一种或多种投资策略进行交易。然而这还远远不够，记得那门课的教授当时说过"In Chinese stock market, monkey would earn more than a professional trader（在中国股票市场，猴子有可能比专业交易员赚的还多哦）"，所以说，本文仅供娱乐，无任何投资参考价值。  
+在本文中，我使用搜狐的接口获取一定时间内特定股票的数据，[API地址](http://q.stock.sohu.com/hisHq?code=cn_000001&start=20180223&end=20180224&stat=1&order=D&period=d&callback=historySearchHandler&rt=jsonp)，源代码地址： [https://github.com/missweetcxx/algo_trading](https://github.com/missweetcxx/algo_trading)。
 
 ##### 2. 相对强弱指数
 相对强弱指数（[Relative Strength Index](https://en.wikipedia.org/wiki/Relative_strength_index)，以下简称RSI）最初由经济学家J.Welles Wilder在上世纪七十年代提出。作为计量超买超卖状况的“警示符”，RSI在证券投资领域十分常用，下面就和大家介绍一下RSI。   
