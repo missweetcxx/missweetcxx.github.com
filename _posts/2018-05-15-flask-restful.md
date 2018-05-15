@@ -11,6 +11,11 @@ tags:
     - Api
 ---
 
+>使用Flask-Restful写API真的是件简单友好的工作！
+>在这篇文章里我会从造库造表、写API代码到相应的扩展来展示我是如何使用Flask-Restful来实现API的。
+
+源码在这里： [源码](https://github.com/missweetcxx/fragments/tree/master/projects/flask_api)
+
 ##### 1. 造库造表
 step 1. 这里我用了docker创建了mysql数据库:
 
