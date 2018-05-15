@@ -26,8 +26,8 @@ sudo docker run --name ${name} -p ${PORT}:3306 -e MYSQL_ROOT_PASSWORD=${PW} -d m
 step 2. 进入mysql终端并对用户进行授权：
 
 ```shell
-mysql -u root -p
-GRANT ALL PRIVILEGES ON ${TABLE_NAME}.* TO 'root'@'%';
+>mysql -u root -p
+>GRANT ALL PRIVILEGES ON ${TABLE_NAME}.* TO 'root'@'%';
 ```
 
 step 3. 建表
